@@ -71,5 +71,11 @@
     "webpack-dev-server": "^4.9.0",
     "webpack-merge": "^5.8.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "react-redux": "^8.0.2",
+    "react-router": "^6.3.0",
+    "react-router-dom": "^6.3.0",
+    "redux": "^4.2.0",
+    "redux-saga": "^1.1.3"
+  }
 }
