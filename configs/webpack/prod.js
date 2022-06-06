@@ -15,7 +15,7 @@ module.exports = merge(commonConfig, {
     publicPath: "/",
   },
   devtool: "source-map",
-  plugins: [new ReactRefreshPlugin(),
+  plugins: [
     new webpack.DefinePlugin({
       'process.env': JSON.stringify(process.env)
    })
