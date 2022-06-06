@@ -3,6 +3,7 @@ import { createRoot } from "react-dom/client";
 import { BrowserRouter } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import configureStore from './store/configureStore';
+import * as serviceWorker from './serviceWorker';
 
 const App = lazy(() => import('./components/App'));
 const container = document.getElementById("root");
@@ -16,5 +17,7 @@ root.render( <Provider store={store}>
     </BrowserRouter>
   </Provider>,);
 
+
+serviceWorker.register();
 
 
