@@ -6,11 +6,9 @@ const reactLogo = require("./../assets/img/react_logo.svg");
 const Home = lazy(() => import('./home'));
 
 const App = () => (
-  <BrowserRouter>
    <Routes>
     <Route path="/" element={<Home/>}/>
   </Routes>
-  </BrowserRouter>
 );
 
 export default App;
